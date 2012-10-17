@@ -1,0 +1,60 @@
+<html><head><title>Welcome to ejtaal's smartphone page!</title><style>
+body, table, img, p { width: 100%; }
+body, table { margin: 0; padding: 0; }
+a { font-size: xx-large; }
+.button { 
+	width: 100%; background-color: silver;
+	font-size: xx-large; text-align: center; 
+	padding: 10px; 
+	}
+.column_indicator td { margin: 2; padding: 2; background-color: gray; }
+.act  { background-color: blue; }
+.index_table td { border-bottom: 1 solid black; }
+.index_table td { border-left: 1 solid black; }
+
+</style>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'/>  
+</head>
+<body>
+<h1>BS test</h1>
+<script>
+//Copyright 2009 Nicholas C. Zakas. All rights reserved.
+//MIT-Licensed, see source file
+function binarySearch(items, value){
+
+    var startIndex  = 0,
+        stopIndex   = items.length - 1,
+        middle      = Math.floor((stopIndex + startIndex)/2);
+
+    while(items[middle] != value && startIndex < stopIndex){
+
+        //adjust search area
+        if (value < items[middle]){
+            stopIndex = middle - 1;
+        } else if (value > items[middle]){
+            startIndex = middle + 1;
+        }
+
+        //recalculate middle
+        middle = Math.floor((stopIndex + startIndex)/2);
+    }
+
+    //return (items[middle] != value) ? -1 : middle;
+    return (items[middle] > value && middle > 0) ? middle-1 : middle;
+}
+
+/* 
+Each of the indices is calculated up front, then adjusted each time
+through the loop. The control condition on the loop ensures that the
+loop is exited if either the value is found or the starting and stopping
+indices have become equal. The return statement needs to check to see
+if the value was actually found or not in order to return the correct
+location (a missing value should return -1, as per array searching
+conventions). Example usage:
+*/
+var items = [ 1, 3, 5, 7, 9, 11, 13];
+alert(binarySearch(items, 5));
+alert(binarySearch(items, 6.8));
+</script>
+</body>
+</html>

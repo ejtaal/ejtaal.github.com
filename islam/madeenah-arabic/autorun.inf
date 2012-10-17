@@ -1,0 +1,6 @@
+[<!--JAVASCRIPT {parameter:browser name}
+[               {start.htm}-->]
+[AUTORUN]
+open=autorun.exe start.htm
+
+[////by umarlim@hotmail.com//////]
