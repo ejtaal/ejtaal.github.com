@@ -1,0 +1,386 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<!--
+Hey you! What are you reading the source of this file for?
+You're not one of them evil h4ck3rZ d00dZ are you?!? 
+
+Oh...you were just interested in the CSS for my homepage?
+That's allright then, have a look right below at my CSS
+testing environment:
+-->
+<title>ejtaal.net</title>
+<style>
+	div#left     { color: #44F; }
+  div#right    { color: #4F4; }
+  div#topbar   { color: #F44; }
+  div#lowerbar { color: #FF4; }
+  body { margin: 0; padding: 0; font-family: sans-serif; }
+  .box { /* position: absolute; border: none; */ padding: 5; font-size: smaller; }
+          
+  a  { color: #fff; padding: 0px 3px; text-decoration: none; font-weight: bold; }
+  ul { text-align: left; margin: 0px; padding: 0px; margin: 0px 0px; margin-left: 20px; }
+  h3 { margin: 0; padding: 0; text-align: left; }
+  li { margin: 0px; padding: 0px; }
+  /*
+	a { background-color: #000; }
+	.list { margin: 5px; padding: 5px; border: 1px solid;  }
+  */
+	.box { width: 500px; margin: 5px; padding: 5px; border: 1px solid;  }
+
+	.new { color: yellow; }
+  /* Side borders for hovering links effect */
+  a:hover { padding: 0px 1px; border-left: 2px solid; border-right: 2px solid; 
+     color: inherit; border-color: inherit; }
+  
+  /*
+	div#info     { font-size: xx-small; position: absolute; bottom: 0; right: 0; color: #FFF; margin: auto; }
+*/
+  div#info     { font-size: xx-small; color: #FFF; }
+  
+
+  .box { 
+  	/* for IE */
+    filter:alpha(opacity=80);
+    -ms-filter:"alpha(opacity=50)";
+  	/* CSS3 standard */
+    opacity: 0.7;
+        -moz-opacity:0.7;
+        -khtml-opacity: 0.7;
+		background: rgba( 0, 0, 0, 0.7);
+  }
+#stretch {
+    width:100%;
+    height:100%;
+	margin: 0 auto;
+	z-index: 50;
+}
+
+#background2 {
+    width: auto; 
+    height: 100%; 
+    position: absolute; 
+    left: 0px; 
+    top: 0px; 
+    z-index: 0;
+}
+html {
+        background: url(images/yellowstone-sunset_wide2560x1600_50.jpg) no-repeat left center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        /*
+				background-size: cover;
+    */
+		background-size: 100%;
+}
+div#background {
+  	background-color:#000;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: url(images/yellowstone-sunset_wide2560x1600_50.jpg) no-repeat;
+    background-size: 100%;
+		background-origin: content;
+/*
+		background: rgba( 0, 0, 0, 0.7);
+    min-width: 1024px;
+    min-height: 768px;
+		z-index: 155;
+    filter:alpha(opacity=50);
+    -ms-filter:"alpha(opacity=50)";
+    filter:alpha(opacity=80);
+        -moz-opacity:0.7;
+        -khtml-opacity: 0.7;
+    opacity: 0.7;
+		background: rgba( 0, 0, 0, 0.7);
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/yellowstone-sunset_wide2560x1600_50.jpg', sizingMethod='scale');
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/yellowstone-sunset_wide2560x1600_50.jpg', sizingMethod='scale');
+    -moz-background-size: 100%;
+		background: rgba( 0, 0, 0, 0.7);
+        -moz-opacity:0.7;
+        -khtml-opacity: 0.7;
+        opacity: 0.7;
+*/
+}
+
+/* CSS Garbage collection
+  	background-color:#000;
+    background: url(images/yellowstone-sunset_wide2560x1600_50.jpg) fixed center center;
+    background-size: 100%;
+    -moz-background-size: 100%;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/yellowstone-sunset_wide2560x1600_50.jpg', sizingMethod='scale');
+	z-index: 95;
+        filter:alpha(opacity=80);
+        -moz-opacity:0.7;
+        -khtml-opacity: 0.7;
+        opacity: 0.7;
+
+    display: float;
+		background: rgba( 0, 0, 0, 0.8);
+	z-index: 95;
+	z-index: 99;
+  	filter:alpha(opacity=70);
+  	opacity:0.7;
+		background: rgba( 0, 0, 0, 0.7);
+	body {
+		    background-image: url(images/yellowstone-sunset_wide2560x1600_50.jpg);
+				    background-size: 100%; background-origin: content;
+	}
+    z-index: 1;
+.stretch {
+    width:100%;
+    height:100%;
+	margin: 0 auto;
+}
+	body {
+		    background-image: url(images/yellowstone-sunset_wide2560x1600_50.jpg);
+				    background-size: 100% auto; background-origin: content;
+	}
+
+	body { background: black url(images/yellowstone-sunset_wide2560x1600_50.jpg) no-repeat fixed center 80%; }
+	body { background: black url(images/yellowstone-sunset_wide2560x1600_bright.jpg) no-repeat fixed center 80%; }
+  .box { background: black url(images/yellowstone-sunset_wide2560x1600_dark.jpg) no-repeat fixed center 80%; }
+#background {
+    width: 100%; 
+    height: 100%; 
+    position: absolute; 
+    left: 0px; 
+    top: 0px; 
+    z-index: 0;
+}
+
+
+
+*/
+
+  
+  
+  /* Set up different colours and sizes */
+  /*
+	div#left, div#right { width: 30%; bottom: 40%; top: 15%; }
+  div#left     { right: 60%; color: #44F;  text-align: right; }
+  div#right    { left: 60%; color: #4F4; }
+  div#topbar, div#lowerbar { left:  10%; right: 10%; }
+  div#topbar   { bottom: 90%; color: #F44; }
+  div#lowerbar { top: 60%; color: #FF4; }
+*/
+  /* Set everything right aligned for the left column */
+	/*
+  div#left h3 { text-align: right; }
+  div#left ul { direction: rtl; margin-left: 0px; margin-right: 23px; }
+*/
+
+  /* remove outermost border from lists */
+/*  div#topbar   .list { display: table-cell; border-top: none; }
+  div#lowerbar .list { display: table-cell; border-bottom: none; text-align: left; }
+  div#left     .list { border-left: none; }
+  div#right    .list { border-right: none; }
+*/
+
+</style>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-34010688-1']);
+_gaq.push(['_setDomainName', 'ejtaal.net']);
+_gaq.push(['_trackPageview']);
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+</head>
+</head>
+<body>
+        <!--
+<div id="background2">
+    <img src="images/yellowstone-sunset_wide2560x1600_50.jpg" id="stretch" alt="" />
+</div>
+<div id="background">
+        -->
+
+<center>
+<div id="topbar" class="box">
+  ::: projects hosted on <a href="http://ejtaal.net">ejtaal.net</a> :::
+</div>
+
+        <!--
+<a href='#'>test</a>
+<p id='left' class='box'>
+    <h3>Astronomy</h3>
+      <ul>
+        <li><a href="explore-solar-system/explore.php?view=mars/maps/mars_global_colour_w1000_mar0kuu2.jpg">Explore Mars</a></li>
+</p>
+        -->
+<div id="right" class="box">
+    <h3>Islam</h3>
+    <ul>
+      <li><a href="donate/">My donation page.</a><sup class=new>*** new ***</sup>
+ 				This will showcase a cause which I'm currently collecting for.
+      <li><a href="m/aa/">Arabic Almanac</a><sup class=new>*** new ***</sup>: Allows searching in Hans Wehr, Lane's Lexicon and J. G. Hava
+				all on a single page.
+      <li><a href="hmc/">Find the nearest HMC outlet with this HMC Map App</a><sup class=new>*** updated 2012/9/1 ***</sup></li>
+      <li><a href="hidayatun-nahw/">Hidayatun Nahw</a><sup class=new>*** new ***</sup>: A summary of Arabic grammar that I prepared as part of course work.
+      <li><a href="islam/arabic.html">Arabic Language Study Resources</a></li>
+      <li><a href="/m">Old versions of Hans Wehr and Lane's Lexicon for reading on your smart phone!</a>
+      <!--
+				<sup class=new>*** old ***</sup>
+				<ul>
+					<li><a href="/m/hw">Hans Wehr's A Dictionary of Modern Written Arabic</a>
+      		<li><a href="book-browser/?book=lanes-lexicon">Lanes Lexicon: An Arabic-English Lexicon</a>
+      		<li><a href="book-browser/?book=al-mawrid">Al Mawrid Arabic Dictionary</a>
+				</ul>
+			<li><a href="bukhari/">Recordings of Bukhari duroos</a>
+			<li>Read the following books online with PHP Book Browser (now replaced by Arabic Almanac, see above):
+				<ul>
+					<li><a href="book-browser/?book=hans-wehr">Hans Wehr's A Dictionary of Modern Written Arabic</a>
+      		<li><a href="book-browser/?book=lanes-lexicon">Lanes Lexicon: An Arabic-English Lexicon</a>
+      		<li><a href="book-browser/?book=al-mawrid">Al Mawrid Arabic Dictionary</a>
+				</ul>
+      -->
+      <li><a href="files/mp3/">Some benefecial lectures in mp3 format</a></li>
+			<li><a href="quran-db/quran-db.php">Hafiz Helper: a custom Quran layout</a>
+			<li><a href="islam/quran-surah-list.html">List of Quranic Surahs and their aliases</a><sup class=new>*** new ***</sup>
+    </ul>
+</div>
+<div id="left" class="box">
+    <h3>Astronomy</h3>
+      <ul>
+        <li><a href="explore-solar-system/explore.php?view=mars/maps/mars_global_colour_w1000_mar0kuu2.jpg">Explore Mars</a></li>
+        <!--
+        -->
+      </ul>
+        <!--
+    <h3>Hosting</h3>
+      <ul>
+        <li><a href="http://www.shababmedia.co.uk/">ShababMedia</a></li>
+        <li><a href="http://explore.ejtaal.net/?view=mars/maps/mars_global_colour_w1000_mar0kuu2.jpg">! Explore Mars</a></li>
+        <li><a href="http://explore.ejtaal.net">Explore the Solar System</a></li>
+      </ul>
+        -->
+    <h3>Programming</h3>
+    <ul>
+      <li><a href="streetview/">Google Street View Time Lapse videos</a></li>
+      <li><a href="scripts-showcase/">scripts showcase</a></li>
+      <li><a href="kamus/">Kamus translator software</a></li>
+      <li><a href="rss/slashdot.php?days=5">RSS cache for slashdot.org</a></li>
+    </ul>
+      <!--
+  <div class="list">
+    <h3>WikiMedia Installs</h3>
+      <ul>
+        <li><a href="http://islamnl.ejtaal.net">Islam NL</a></li>
+        <li><a href="http://studynotes.ejtaal.net">Study Notes</a></li>
+      </ul>
+  </div>
+      -->
+</div>
+<div id="lowerbar" class="box">
+    <h3>Misc</h3>
+    <ul>
+			<li>My attempt at keeping a blog:
+				<a href="/wp/">My blawgh</a>
+      <li><a href="pictures/">Various pictures I took</a>
+      <li><a href="homepage.html">My useful browser homepage</a>
+      <li><a href="fun/slashdot-comments.html">My collection of funny slashdot comments</a>
+      <li><a href="fun/hackers-home/index.html">What's in a hacker's home?</a>
+      <li><a href="docs/">various documents and howtos</a>
+      <li><a href="files/">various binary files</a>
+      <li><a href="quotes.html">Thought provoking quotes</a>
+<!-- 
+      <li>My CV in
+				<a href="Erik_Taal-CV.doc">Word</a>, 
+				<a href="Erik_Taal-CV.pdf">PDF</a> and
+				<a href="Erik_Taal-CV.odt">ODF</a>.
+      <li><a href="blog/flatpress">My Journal on Western Hypocrisy</a>
+      <li><a href="blog/carcraft">Refund from insurance by Carcraft and Creation Finance</a>
+ -->
+    </ul>
+</div>
+
+<!--
+  TODO:
+    <li><a href="islam/muslims.html">What have the Muslims ever done for us?</a></li>
+    <li><a href="islam/character.html">Character improvement help</a></li>
+    <li><a href="tailf/">tail -f for Windows</a></li>
+    <li><a href="cv/">My CV</a>
+    <li><a href="">Selected APOD/EPOD collection</a>
+    <li><a href="hadeeth-db/hadeeth-db.php">Hadeeth Database</a>
+    <li><a href="miracles-of-quran/index.html">Miracles of Quran</a>
+      ( <a href="miracles-of-quran/miracles-of-quran.php">php</a> )
+    <li><a href="reasons-for-conversion/index.html">Reasons for converting to Islam</a>
+    <li><a href="software/index.html">Software I use</a>
+    <li><a href="mirrors/mirrors.html">Local mirrors</a>
+    <li><a href="cv/cv-english.html">My CV in english</a> 
+    (<a href="cv/cv-english.txt">plain text</a>|<a href="cv/cv-english.pdf">PDF</a>|<a href="cv/cv-english.doc">Word</a>)
+    <li><a href="cv/cv-nederlands.html">Mijn CV in het nederlands</a> 
+    (<a href="cv/cv-nederlands.txt">platte text</a>|<a href="cv/cv-nederlands.pdf">PDF</a>|<a href="cv/cv-nederlands.doc">Word</a>)
+    <li><a href="history/index.html">History project</a>
+    <li><a href="quotes/index.html">Quotes</a>
+-->
+<div id=info class=box>
+  Email: ejtaal at gmail dot com
+  <img alt="Edited with VIM" src="images/vim_created.png">
+  <img alt="Powered by electrons" src="images/electrons.png">
+  <img title="Best NOT viewed with Internet Explorer" src="images/best-viewed-with.png">
+</div>
+
+<!-- awstats statistics collection script -->
+<script language=javascript src="/js/awstats_misc_tracker.js"></script>
+<noscript><img src="/js/awstats_misc_tracker.js?nojs=y" height=0 width=0 border=0 style="display: none"></noscript>
+<!-- /awstats statistics collection script -->
+
+<!-- Garbage collection 
+<meta http-equiv="Default-Style" content="NGC 2440">
+<style title="M57 HST" rel="alternate stylesheet">
+  body { background: black url(images/m57ring.jpg) no-repeat fixed center center; }
+  .list { background: black url(images/m57ring_dim.jpg) no-repeat fixed center center; }
+</style>
+<style title="Dumbbellho noao" rel="alternate stylesheet">
+  body { background: black url(images/dumbbell.jpg) no-repeat fixed center center; }
+  .list  { background: black url(images/dumbbell_dim.jpg) no-repeat fixed center center; }
+</style>
+<style title="M27" rel="alternate stylesheet"  type="text/css" media="screen">
+  body { background: black url(images/m27.jpg) no-repeat fixed center center; }
+  .list  { background: black url(images/m27_dim.jpg) no-repeat fixed center center; }
+</style>
+<style title="M27ha" rel="alternate stylesheet" type="text/css" media="screen">
+  body { background: black url(images/m27ha.jpg) no-repeat fixed center center; }
+  .list  { background: black url(images/m27ha_dim.jpg) no-repeat fixed center center; }
+</style>
+<style title="Deml171" rel="alternate stylesheet" type="text/css" media="screen">
+  body { background: black url(images/deml171.jpg) no-repeat fixed center center; }
+  .list  { background: black url(images/deml171_dim.jpg) no-repeat fixed center center; }
+</style>
+<style title="NGC 2440" rel="stylesheet"  type="text/css" media="screen">
+  body { background: black url(images/ngc2440.jpg) no-repeat fixed center center; }
+  .box { background: black url(images/ngc2440_dim.jpg) no-repeat fixed center center; }
+</style>
+<style title="NGC 6946e" rel="alternate stylesheet" type="text/css" media="screen">
+  body { background: black url(images/ngc6946e.jpg) no-repeat fixed center center; }
+  .list  { background: black url(images/ngc6946e_dim.jpg) no-repeat fixed center center; }
+</style>
+<style title="Ring of Fire" rel="alternate stylesheet"  type="text/css" media="screen">
+  body { background: black url(images/firering.jpg) no-repeat fixed center center; }
+  .list  { background: black url(images/firering_dim.jpg) no-repeat fixed center center; }
+</style>
+<style title="M33" rel="alternate stylesheet" type="text/css" media="screen">
+  body { background: black url(images/m33.jpg) no-repeat fixed center center; }
+  .list { background: black url(images/m33_dim.jpg) no-repeat fixed center center; }
+</style>
+<style title="Veil" rel="alternate stylesheet" type="text/css" media="screen">
+  body { background: black url(images/veil.jpg) no-repeat fixed center center; }
+  .list { background: black url(images/veil_dim.jpg) no-repeat fixed center center; }
+</style>
+
+-->
+
+</div>
+
+</center>
+</body>
+</html>
