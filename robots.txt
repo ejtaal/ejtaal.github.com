@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+Sitemap: http://www.ejtaal.net/sitemap.xml.gz
+
+
+DisAllow:
